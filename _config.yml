@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: zh-CN
+lang: 'zh-CN'
 
 # Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Shanghai
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:"https://www.google.com.hk/imgres?q=%E7%8B%97&imgurl=https%3A%2F%2Fwww.fetnet.net%2Fcontent%2Fdam%2Ffetnet%2Fuser_resource%2Fcbu%2Fimages%2Flife-circle%2Flife-proposal%2F2025%2F08%2Fdog_day%2FDog_Day.jpg&imgrefurl=https%3A%2F%2Fwww.fetnet.net%2Fcontent%2Fcbu%2Ftw%2Flifecircle%2Flife%2F2025%2F08%2FDog_Day.html&docid=VGC-VPR_jBiTUM&tbnid=tFurFwjXsAqmkM&vet=12ahUKEwjfl5eE8sSSAxWq2jQHHVweENoQnPAOegQIORAB..i&w=800&h=533&hcb=2&ved=2ahUKEwjfl5eE8sSSAxWq2jQHHVweENoQnPAOegQIORAB"
+avatar: '65100083.jfif'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
