@@ -64,7 +64,7 @@ $$
 将其具体化（假设 $z = w \cdot x$ 形式）：
 
 $$
-\frac{\partial L}{\partial x_1^{'}} = w_1^{''}\frac{\partial x_1^{''}}{\partial z_1^{'}}w_{11}^{'} + w_2^{''}\frac{\partial x_2^{''}}{\part z_2^{'}}w_{12}^{'}
+\frac{\partial L}{\partial x_1^{'}} = w_1^{''}\frac{\partial x_1^{''}}{\partial z_1^{'}}w_{11}^{'} + w_2^{''}\frac{\partial x_2^{''}}{\partial z_2^{'}}w_{12}^{'}
 $$
 
 这揭示了反向传播的一个核心逻辑：**误差是加权求和并反向流动的。**
@@ -92,7 +92,7 @@ $$
 >
 > *注：对于加法节点（Distributor），梯度直接复制分发（$\frac{\partial(a+b)}{\partial a}=1$）；对于乘法节点，梯度往往涉及交换相乘。*
 
-仔细观察，我们可以知道$$\frac{\partial L}{\part x_1^{'}}$$是由两条线路上的计算单元的偏导相乘再相加得到的，在此基础上，$$\frac{\partial L}{\part x_1^{'}}$$乘以$$\frac{\partial x_1^{'}}{\part z_1}$$，再乘以$$x_1$$就能得到$$\frac{\partial L}{\part w_{11}}$$的结果，整个求解过程就像是从后往前逆箭头方向计算的，所以称之为反向传播。
+仔细观察，我们可以知道$$\frac{\partial L}{\partial x_1^{'}}$$是由两条线路上的计算单元的偏导相乘再相加得到的，在此基础上，$$\frac{\partial L}{\partial x_1^{'}}$$乘以$$\frac{\partial x_1^{'}}{\partial z_1}$$，再乘以$$x_1$$就能得到$$\frac{\partial L}{\partial w_{11}}$$的结果，整个求解过程就像是从后往前逆箭头方向计算的，所以称之为反向传播。
 
 ![image-20260207191141702](../assets/img/posts/backpropagation2.png)
 
