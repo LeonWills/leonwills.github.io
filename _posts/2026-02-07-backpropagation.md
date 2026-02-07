@@ -49,6 +49,6 @@ $$
 
 仔细观察，我们可以知道$$\frac{\partial L}{\part x_1^{'}}$$是由两条线路上的计算单元的偏导相乘再相加得到的，在此基础上，$$\frac{\partial L}{\part x_1^{'}}$$乘以$$\frac{\partial x_1^{'}}{\part z_1}$$，再乘以$$x_1$$就能得到$$\frac{\partial L}{\part w_{11}}$$的结果，整个求解过程就像是从后往前逆箭头方向计算的，所以称之为反向传播。
 
-![image-20260207191141702](../\assets/img/posts/backpropagation2.png)
+![image-20260207191141702](../assets/img/posts/backpropagation2.png)
 
 **正向传播中，各个计算节点都是以$$f(.)$$的形式参与计算的，而反向传播中各个计算节点都是以其偏导数相乘的形式参与计算的。**
