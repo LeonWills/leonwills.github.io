@@ -136,27 +136,27 @@ Markdown 支持 LaTeX 语法，是科研写作的神器。
 
 #### 2.1希腊字母
 
-|     字母     |    实现    |     字母     |    实现    |
-| :----------: | :--------: | :----------: | :--------: |
-|      A       |    `A`     |  $$\alpha$$  |  `\alpha`  |
-|      B       |    `B`     |  $$\beta$$   |  `\beta`   |
-|  $$\Gamma$$  |  `\Gamma`  |  $$\gamma$$  |  `\gamma`  |
-|  $$\Delta$$  |  `\Delta`  |  $$\delta$$  |  `\delta`  |
-|  $$\exist$$  |  `\exist`  | $$\epsilon$$ | `\epsilon` |
-| $$\Lambda$$  | `\Lambda`  |  $$\zeta$$   |  ``\zeta`  |
-| $$\lambda$$  | `\lambda`  |   $$\eta$$   |   `\eta`   |
-|  $$\Theta$$  |  `\Theta`  |  $$\theta$$  |  `\theta`  |
-|   $$\mu$$    |   `\mu`    |  $$\iota$$   |  `\iota`   |
-|   $$\nu$$    |   `\nu`    |  $$\kappa$$  |  `\kappa`  |
-|   $$\Xi$$    |   `\Xi`    |   $$\xi$$    |   `\xi`    |
-| $$\omicron$$ | `\omicron` |   $$\rho$$   |   `\rho`   |
-|   $$\Pi$$    |   `\Pi`    |   $$\pi$$    |   `\pi`    |
-|  $$\Sigma$$  |  `\Sigma`  |  $$\sigma$$  |  `\sigma`  |
-|   $$\tau$$   |   `\tau`   |  $\forall$   | `\forall`  |
-| $$\Upsilon$$ | `\Upsilon` | $$\upsilon$$ |  \upsilon  |
-|   $$\Phi$$   |   `\Phi`   |   $$\phi$$   |    \phi    |
-|   $$\Psi$$   |   `\Psi`   |   $$\psi$$   |    \psi    |
-|  $$\Omega$$  |  `\Omega`  |  $$\omega$$  |   \omega   |
+| 字母       | 实现       | 字母       | 实现       |
+| :--------- | :--------- | :--------- | :--------- |
+| A          | `A`        | $\alpha$   | `\alpha`   |
+| B          | `B`        | $\beta$    | `\beta`    |
+| $\Gamma$   | `\Gamma`   | $\gamma$   | `\gamma`   |
+| $\Delta$   | `\Delta`   | $\delta$   | `\delta`   |
+| $\exists$  | `\exists`  | $\epsilon$ | `\epsilon` |
+| $\Lambda$  | `\Lambda`  | $\zeta$    | `\zeta`    |
+| $\lambda$  | `\lambda`  | $\eta$     | `\eta`     |
+| $\Theta$   | `\Theta`   | $\theta$   | `\theta`   |
+| $\mu$      | `\mu`      | $\iota$    | `\iota`    |
+| $\nu$      | `\nu`      | $\kappa$   | `\kappa`   |
+| $\Xi$      | `\Xi`      | $\xi$      | `\xi`      |
+| $\omicron$ | `\omicron` | $\rho$     | `\rho`     |
+| $\Pi$      | `\Pi`      | $\pi$      | `\pi`      |
+| $\Sigma$   | `\Sigma`   | $\sigma$   | `\sigma`   |
+| $\tau$     | `\tau`     | $\forall$  | `\forall`  |
+| $\Upsilon$ | `\Upsilon` | $\upsilon$ | `\upsilon` |
+| $\Phi$     | `\Phi`     | $\phi$     | `\phi`     |
+| $\Psi$     | `\Psi`     | $\psi$     | `\psi`     |
+| $\Omega$   | `\Omega`   | $\omega$   | `\omega`   |
 
 #### 2.2 运算符和关系表达
 
@@ -181,10 +181,10 @@ Markdown 支持 LaTeX 语法，是科研写作的神器。
 | 约等于           | $$\approx$$                                                |
 | 积分             | $$\int_1^2{x}dx$$                                          |
 | 双重积分         | $$\iint_1^2{x}dxdy$$                                       |
-| 无穷             | $$\infin$$                                                 |
+| 无穷             | $$\infty$$                                                 |
 | 求导             | $$\nabla$$   $$y\prime$$                                   |
 | 偏导             | $$\partial$$                                               |
-| 极限             | $$\lim_{n \rightarrow +\infin}{a_n}$$                      |
+| 极限             | $$\lim_{n \rightarrow +\infty}{a_n}$$                      |
 | 向量             | $$\vec{a}$$                                                |
 
 
